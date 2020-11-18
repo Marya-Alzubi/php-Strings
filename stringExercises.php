@@ -236,6 +236,18 @@ foreach ($azRange as $letter)
 //
 //
 //
+// another wayfor ex26
+for($i="A"; $i<"Z"; $i++){
+    echo $i;
+    echo "<br>";
+}
+
+for($i=65; $i<=90; $i++){
+   echo chr($i);
+}
+//
+//
+//
 // EXTRA QUESTION ABOUT CONDITION ////
 $mark = -1 ;
 if ($mark >=90 && $mark<= 100){
